@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SlideAndRide</string>
+
+    <string name="app_name">Slide and Ride</string>
+    <string name="choose_picture">Choose picture</string>
+    <string name="title_activity_choose_picture">ChoosePictureActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="tabDefaultPictures">Puzzle</string>
+    <string name="tabPhoneGallery">My Pictures</string>
+    <string name="tabSymbols">ABC... 123...</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_highscore">HighscoreActivity</string>
+
 </resources>
