@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layer_list_background"
+    tools:context=".MainActivity" >
+
+    <CheckBox
+        android:id="@+id/checkBox3x3"
+        style="@style/CheckBoxStyle"
+        android:button="@drawable/selector_difficulty_3"
+        android:onClick="onDiffChanged" />
+
+    <CheckBox
+        android:id="@+id/checkBox4x4"
+        style="@style/CheckBoxStyle"
+        android:layout_toRightOf="@id/checkBox3x3"
+        android:button="@drawable/selector_difficulty_4"
+        android:onClick="onDiffChanged" />
+
+    <CheckBox
+        android:id="@+id/checkBox5x5"
+        style="@style/CheckBoxStyle"
+        android:layout_below="@id/checkBox3x3"
+        android:button="@drawable/selector_difficulty_5"
+        android:onClick="onDiffChanged" />
+
+    <CheckBox
+        android:id="@+id/checkBox6x6"
+        style="@style/CheckBoxStyle"
+        android:layout_below="@id/checkBox4x4"
+        android:layout_toRightOf="@id/checkBox5x5"
+        android:button="@drawable/selector_difficulty_6"
+        android:onClick="onDiffChanged" />
+
+    <Button
+        android:id="@+id/btnChoosePicture"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/checkBox4x4"
+        android:background="@drawable/selector_choosepic"
+        android:onClick="onChoosePicture" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/btnChoosePicture"
+        android:background="@drawable/selector_button_background"
+        android:onClick="onPlay"
+        android:scaleType="fitXY"
+        android:src="@drawable/selector_play" />
+
+    <ImageButton
+        android:id="@+id/btnHighscore"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btnPlay"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/btnChoosePicture"
+        android:background="@drawable/selector_button_background"
+        android:onClick="onHighscore"
+        android:scaleType="fitXY"
+        android:src="@drawable/selector_highscore" />
+
+    <humaj.michal.util.TiledSquareImageView
+        android:id="@+id/iv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox5x5"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop" />
+
+    <WebView
+        android:id="@+id/leadboltAd"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

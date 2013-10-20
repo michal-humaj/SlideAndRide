@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_gradient"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivHighscore"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="8dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="3 x 3:"
+            android:textColor="#3b301e"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"                   
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="4 x 4:"
+            android:textColor="#000000"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="5 x 5:"
+            android:textColor="#000000"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="6 x 6:"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icTime"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_time" />
+
+        <TextView
+            android:id="@+id/tv3x3Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="ERROR"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv4x4Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:text="ERROR"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv5x5Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="ERROR"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv6x6Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:text="ERROR"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icMoves"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_moves" />
+
+        <TextView
+            android:id="@+id/tv3x3Moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="ERROR"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv4x4Moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="ERROR"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv5x5Moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:text="ERROR"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv6x6Moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="ERROR"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="1"   
+            android:shadowRadius="1"    
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
