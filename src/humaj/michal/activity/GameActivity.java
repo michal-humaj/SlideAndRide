@@ -40,6 +40,7 @@ public class GameActivity extends FragmentActivity implements OnTouchListener,
 	private ImageButton mBtnPreview;
 	private boolean mDialogPaused = false;
 	private boolean mQuitPressed = false;
+	
 	private int mDifficulty;
 	private String mMovesBest;
 	private String mTimeBest;
